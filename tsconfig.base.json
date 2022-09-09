@@ -1,0 +1,11 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@mono/auth/models": ["packages/nest/auth/src/index.ts"]
+        }
+    }
+}
