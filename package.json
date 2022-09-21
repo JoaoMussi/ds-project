@@ -15,11 +15,15 @@
     ]
   },
   "scripts": {
-    "init": "yarn workspace login ng serve"
+    "login": "yarn workspace @mono/login ng serve",
+    "auth": "yarn workspace @mono/auth run start",
+    "design-system": "yarn workspace @mono/ds start"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.7.0",
     "@opentelemetry/api": "^1.2.0",
     "@opentelemetry/auto-instrumentations-node": "^0.32.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.32.0",
     "@opentelemetry/sdk-node": "^0.32.0"
   }
 }
