@@ -1,0 +1,68 @@
+:root {
+    --ds-font-size-default: 16px;
+    --ds-font-size-xxxl: 62px;
+    --ds-font-size-xxl: 48px;
+    --ds-font-size-xl: 32px;
+    --ds-font-size-lg: 24px;
+    --ds-font-size-sm: 14px;
+    --ds-font-size-xs: 12px;
+    
+    --ds-font-weight-normal: normal;
+    --ds-font-weight-bold: bold;
+    
+    --ds-line-height-default: 1;
+    --ds-line-height-medium: 1.5;
+    
+    --ds-background-color: #5D99D3;
+    --ds-primary-color: #1B5FA1;    
+    --ds-secondary-color: #E1EAF3;
+    
+    --ds-color-medium: #5C84B6;
+    --ds-color-high: #2B89D0;
+
+    --ds-color-white: #fff;
+    
+    --ds-spacing-1: 4px;
+    --ds-spacing-2: 8px;
+    --ds-spacing-3: 16px;
+    --ds-spacing-4: 24px;
+    --ds-spacing-5: 32px;
+    --ds-spacing-6: 64px;
+
+    --ds-box-shadow-light: 4px 0 8px 0 rgba(0,0,0,.16);
+    --ds-box-shadow-medium: 8px 0 16px 0 rgba(0,0,0,.16);
+    --ds-box-shadow-dark: 16px 0 24px 0 rgba(0,0,0,.16);
+    
+    --ds-border-sm: 1px;
+    --ds-border-md: 2px;
+    --ds-border-lg: 4px;
+    --ds-border-xl: 8px;
+    
+    --ds-border-radius-squared: 0;
+    --ds-border-radius-light: 4px;
+    --ds-border-radius-medium: 8px;
+    --ds-border-radius-high: 12px;
+    --ds-border-radius-circle: 50%;
+    --ds-border-radius-pill: 500px;
+    
+    --ds-icon-size-sm: 16px;
+    --ds-icon-size-md: 24px;
+    --ds-icon-size-lg: 46px;
+    
+    --ds-opacity-light: .1;
+    --ds-opacity-medium: .4;
+    --ds-opacity-high: .6;
+    --ds-opacity-oblique: .8;
+    --ds-opacity-invisible: 1;
+
+    --ds-font-default: "Roboto, sans-serif";
+
+}
+
+body[data-theme='dark'] {
+    --ds-color-primary: #000C2A;
+    --ds-color-secondary: #001543;
+    --ds-color-default: #002167;
+    --ds-color-medium: #00103D;
+    --ds-color-high: #001237;
+}
