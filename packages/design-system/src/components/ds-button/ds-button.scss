@@ -1,0 +1,10 @@
+:host {
+  display: inline-block;
+  font-family: var(--ds-font-default);
+}
+
+.ds-button {
+  padding: var(--ds-spacing-2) var(--ds-spacing-4);
+  background-color: var(--ds-color-white);
+  border-radius: var(--ds-border-radius-medium);
+}
