@@ -9,12 +9,12 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/angular/*",
-      "packages/nest/*",
       "packages/*"
     ]
   },
   "scripts": {
+    "build angular-components": "yarn workspace @mono/angular-components ng build ",
+    "build login": "yarn workspace @mono/angular-components ng build ",
     "login": "yarn workspace @mono/login ng serve",
     "auth": "yarn workspace @mono/auth run start",
     "design-system": "yarn workspace @mono/ds start"
